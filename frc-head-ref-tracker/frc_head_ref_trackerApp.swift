@@ -25,7 +25,7 @@ struct frc_head_ref_trackerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartMenu()
         }
         .modelContainer(sharedModelContainer)
     }

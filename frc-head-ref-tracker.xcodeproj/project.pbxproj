@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		64B3BE3E2F53A59F00B721CB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64B3BE3D2F53A59500B721CB /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		64B3BE142F52426F00B721CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		64B3BE022F52426C00B721CB /* frc-head-ref-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frc-head-ref-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B3BE132F52426F00B721CB /* frc-head-ref-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frc-head-ref-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B3BE1D2F52426F00B721CB /* frc-head-ref-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frc-head-ref-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B3BE3D2F53A59500B721CB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -92,6 +97,7 @@
 				64B3BE162F52426F00B721CB /* frc-head-ref-trackerTests */,
 				64B3BE202F52426F00B721CB /* frc-head-ref-trackerUITests */,
 				64B3BE032F52426C00B721CB /* Products */,
+				64B3BE3D2F53A59500B721CB /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B3BE3E2F53A59F00B721CB /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
