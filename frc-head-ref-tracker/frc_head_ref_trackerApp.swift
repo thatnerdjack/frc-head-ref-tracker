@@ -12,7 +12,8 @@ import SwiftData
 struct frc_head_ref_trackerApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Settings.self,
+            Team.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
